@@ -8,5 +8,5 @@ app.use(express.json());
 app.use("/api", jobRoute);
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log(`Server running in http://localhost:${PORT}`);
 });
