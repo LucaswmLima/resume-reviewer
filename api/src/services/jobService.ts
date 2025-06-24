@@ -26,10 +26,15 @@ export const processTexts = (jobText: string, cvText: string) => {
   );
 
   const missingTechs = techsInJob.filter(tech => !techsInCV.includes(tech));
+  const matchedCount = techsInJob.length - missingTechs.length;
+  const compatibility = techsInJob.length > 0
+    ? Number(((matchedCount / techsInJob.length) * 100).toFixed(2))
+    : 0;
 
   return {
     techsInJob,
     techsInCV,
-    missingTechs
+    missingTechs,
+    compatibility
   };
 };
