@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { TextArea } from "../components/TextArea";
 import { FileUploader } from "../components/FileUploader";
 import { ResultDisplay } from "../components/ResultDisplay";
@@ -7,6 +8,8 @@ import type { ResumeAnalysisResult } from '../types/resumeAnalysisTypes';
 import { Button } from "@/components/ui/button";
 
 export const Home: React.FC = () => {
+  const { t } = useTranslation();
+
   const [vagaText, setJobText] = useState("");
   const [cvText, setCvText] = useState("");
   const [result, setResult] = useState<ResumeAnalysisResult | null>(null);
@@ -30,19 +33,18 @@ export const Home: React.FC = () => {
 
   return (
     <main style={{ maxWidth: 800, margin: "40px auto", padding: 20 }}>
-
       <TextArea
-        label="Job Description"
+        label={t("home.jobTextTitle")}
         value={vagaText}
         onChange={setJobText}
-        placeholder="Cole aqui o texto da vaga..."
+        placeholder={t("home.jobTextPlaceholder")}
       />
 
       <TextArea
-        label="Resume"
+        label={t("home.resumeTextTitle")}
         value={cvText}
         onChange={setCvText}
-        placeholder="Cole aqui o texto do CV..."
+        placeholder={t("home.resumeTextPlaceholder")}
       />
 
       <FileUploader onFileTextRead={setCvText} />
@@ -52,7 +54,7 @@ export const Home: React.FC = () => {
         onClick={handleSubmit}
         disabled={loading || !vagaText || !cvText}
       >
-        {loading ? "Analisando..." : "Analisar"}
+        {loading ? t("home.analysingButton") : t("home.analyseButton")}
       </Button>
 
       {error && <p style={{ color: "red", marginTop: 12 }}>{error}</p>}

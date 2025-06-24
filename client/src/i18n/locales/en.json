@@ -1,15 +1,15 @@
 {
   "navbar": {
-    "title": "Revisor de Currículum",
-    "modeToggle": { "light": "Claro", "dark": "Oscuro", "system": "Sistema" }
+    "title": "Resume Reviewer",
+    "modeToggle": { "light": "Light", "dark": "Dark", "system": "System" }
   },
   "home": {
-    "description": "Analiza tu currículum en función del puesto deseado. Pega o sube tu CV y la descripción del trabajo para saber si estás usando las palabras clave más relevantes. El sistema identifica los términos presentes, resalta los que faltan y calcula una puntuación de compatibilidad.",
-    "jobTextTitle": "Descripción del puesto",
-    "jobTextPlaceholder": "Pega aquí la descripción del trabajo...",
-    "resumeTextTitle": "Currículum",
-    "resumeTextPlaceholder": "Pega aquí el texto de tu currículum...",
-    "analyseButton": "Analizar",
-    "analysingButton": "Analizando..."
+    "description": "Analyze your resume based on the desired job. Paste or upload your CV and the job description to find out if you're using the most relevant keywords. The system identifies matching terms, highlights missing ones, and calculates a compatibility score.",
+    "jobTextTitle": "Job Description",
+    "jobTextPlaceholder": "Paste the job description here...",
+    "resumeTextTitle": "Resume",
+    "resumeTextPlaceholder": "Paste your resume text here...",
+    "analyseButton": "Analyze",
+    "analysingButton": "Analyzing..."
   }
 }

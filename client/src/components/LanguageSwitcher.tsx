@@ -36,7 +36,7 @@ export function LanguageSwitcher() {
             onClick={() => i18n.changeLanguage(code)}
             className="flex items-center gap-2"
           >
-            <img src={flag} alt={label} className="h-4 rounded-sm object-contain" />
+            <img src={flag} alt={label} className="h-5 w-6 rounded-sm object-contain" />
             {label}
           </DropdownMenuItem>
         ))}
