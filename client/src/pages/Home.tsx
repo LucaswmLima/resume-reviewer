@@ -6,7 +6,7 @@ import { analyzeResumeTexts } from "../api/resumeAnalysisApi";
 import type { ResumeAnalysisResult } from '../types/resumeAnalysisTypes';
 
 export const Home: React.FC = () => {
-  const [vagaText, setVagaText] = useState("");
+  const [vagaText, setJobText] = useState("");
   const [cvText, setCvText] = useState("");
   const [result, setResult] = useState<ResumeAnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
@@ -34,7 +34,7 @@ export const Home: React.FC = () => {
       <TextArea
         label="Texto da vaga"
         value={vagaText}
-        onChange={setVagaText}
+        onChange={setJobText}
         placeholder="Cole aqui o texto da vaga..."
       />
 
