@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "title": "Revisor de Curriculo",
+    "modeToggle": { "light": "Claro", "dark": "Escuro", "system": "Sistema" }
+  },
+  "home": {
+    "description": "Analise seu currículo com base na vaga desejada. Insira ou carregue seu CV e a descrição da vaga para descobrir se você está utilizando as palavras-chave mais relevantes. O sistema identifica os termos encontrados, destaca os que estão ausentes e calcula uma pontuação de compatibilidade.",
+    "jobTextTitle": "Descrição da vaga",
+    "jobTextPlaceholder": "Cole aqui o texto da vaga...",
+    "resumeTextTitle": "Curriculo",
+    "resumeTextPlaceholder": "Cole aqui o texto de seu curriculo...",
+    "analyseButton": "Analisar",
+    "analysingButton": "Analisando..."
+  }
+}

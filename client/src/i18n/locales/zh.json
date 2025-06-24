@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "title": "简历分析器",
+    "modeToggle": { "light": "浅色", "dark": "深色", "system": "系统" }
+  },
+  "home": {
+    "description": "根据目标职位分析您的简历。粘贴或上传您的简历和职位描述，了解您是否使用了最相关的关键词。系统会识别匹配的词汇，标出缺失的内容，并计算匹配评分。",
+    "jobTextTitle": "职位描述",
+    "jobTextPlaceholder": "请在此粘贴职位描述...",
+    "resumeTextTitle": "简历",
+    "resumeTextPlaceholder": "请在此粘贴您的简历内容...",
+    "analyseButton": "分析",
+    "analysingButton": "分析中..."
+  }
+}

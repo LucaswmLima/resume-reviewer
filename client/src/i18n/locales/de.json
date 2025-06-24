@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "title": "Lebenslauf-Prüfer",
+    "modeToggle": { "light": "Hell", "dark": "Dunkel", "system": "System" }
+  },
+  "home": {
+    "description": "Analysieren Sie Ihren Lebenslauf basierend auf der gewünschten Stelle. Fügen Sie Ihren Lebenslauf und die Stellenbeschreibung ein oder laden Sie sie hoch, um herauszufinden, ob Sie die relevantesten Schlüsselwörter verwenden. Das System erkennt passende Begriffe, hebt fehlende hervor und berechnet einen Kompatibilitätswert.",
+    "jobTextTitle": "Stellenbeschreibung",
+    "jobTextPlaceholder": "Fügen Sie hier die Stellenbeschreibung ein...",
+    "resumeTextTitle": "Lebenslauf",
+    "resumeTextPlaceholder": "Fügen Sie hier den Text Ihres Lebenslaufs ein...",
+    "analyseButton": "Analysieren",
+    "analysingButton": "Analysiere..."
+  }
+}
