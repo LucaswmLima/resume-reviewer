@@ -4,6 +4,7 @@ import { FileUploader } from "../components/FileUploader";
 import { ResultDisplay } from "../components/ResultDisplay";
 import { analyzeResumeTexts } from "../api/resumeAnalysisApi";
 import type { ResumeAnalysisResult } from '../types/resumeAnalysisTypes';
+import { Button } from "@/components/ui/button";
 
 export const Home: React.FC = () => {
   const [vagaText, setJobText] = useState("");
@@ -29,17 +30,16 @@ export const Home: React.FC = () => {
 
   return (
     <main style={{ maxWidth: 800, margin: "40px auto", padding: 20 }}>
-      <h1>Analisador de Vaga x CV</h1>
 
       <TextArea
-        label="Texto da vaga"
+        label="Job Description"
         value={vagaText}
         onChange={setJobText}
         placeholder="Cole aqui o texto da vaga..."
       />
 
       <TextArea
-        label="Texto do CV"
+        label="Resume"
         value={cvText}
         onChange={setCvText}
         placeholder="Cole aqui o texto do CV..."
@@ -47,18 +47,13 @@ export const Home: React.FC = () => {
 
       <FileUploader onFileTextRead={setCvText} />
 
-      <button
+      <Button
+        variant="outline"
         onClick={handleSubmit}
         disabled={loading || !vagaText || !cvText}
-        style={{
-          marginTop: 16,
-          padding: "10px 20px",
-          fontSize: 16,
-          cursor: loading || !vagaText || !cvText ? "not-allowed" : "pointer",
-        }}
       >
         {loading ? "Analisando..." : "Analisar"}
-      </button>
+      </Button>
 
       {error && <p style={{ color: "red", marginTop: 12 }}>{error}</p>}
 

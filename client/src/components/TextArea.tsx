@@ -1,4 +1,5 @@
 import React from "react";
+import { Textarea } from "@/components/ui/textarea"
 
 interface TextAreaProps {
   label: string;
@@ -16,7 +17,7 @@ export const TextArea: React.FC<TextAreaProps> = ({ label, value, onChange, plac
   return (
     <label style={{ display: "block", marginBottom: 12 }}>
       <strong>{label}</strong>
-      <textarea
+      <Textarea
         style={{ width: "100%", minHeight: 120, padding: 8, fontSize: 16 }}
         value={value}
         onChange={handleChange}
