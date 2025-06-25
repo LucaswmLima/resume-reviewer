@@ -31,8 +31,5 @@ Thumbs.db
 # Jest
 coverage/
 
-# Optional: ignore compiled JSON files from techs
-techs.json
-
 # Optional: local data
 *.local
