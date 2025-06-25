@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
   return (
     <main className="container mx-auto my-10 p-4">
       {/* Container com flex para os textareas lado a lado */}
-      <div className="flex gap-6 mb-6">
+      <div className="flex flex-col md:flex-row gap-6 mb-6">
         <div className="flex-1">
           <TextArea
             label={t("home.jobTextTitle")}
@@ -53,7 +53,7 @@ export const Home: React.FC = () => {
       </div>
 
       {/* Botão centralizado */}
-      <div className="flex justify-center mb-6">
+      <div className="flex justify-center mb-2">
         <Button
           variant="outline"
           onClick={handleSubmit}
