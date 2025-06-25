@@ -14,7 +14,7 @@
     "result": {
       "title": "Resultados da Análise",
       "jobTechs": "Tecnologias na vaga",
-      "resumeTechs": "Tecnologias no curriculo",
+      "resumeTechs": "Tecnologias compatíveis",
       "missingTechs": "Tecnologias faltando",
       "noneTechs": "Nenhuma",
       "compatibility": "Compatibilidade"

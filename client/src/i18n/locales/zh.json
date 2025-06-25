@@ -14,7 +14,7 @@
     "result": {
       "title": "分析结果",
       "jobTechs": "职位中的技术",
-      "resumeTechs": "简历中的技术",
+      "resumeTechs": "兼容技术",
       "missingTechs": "缺少的技术",
       "noneTechs": "无",
       "compatibility": "匹配度"

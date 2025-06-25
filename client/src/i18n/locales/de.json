@@ -14,7 +14,7 @@
     "result": {
       "title": "Analyseergebnisse",
       "jobTechs": "Technologien in der Stelle",
-      "resumeTechs": "Technologien im Lebenslauf",
+      "resumeTechs": "Kompatible Technologien",
       "missingTechs": "Fehlende Technologien",
       "noneTechs": "Keine",
       "compatibility": "Kompatibilität"

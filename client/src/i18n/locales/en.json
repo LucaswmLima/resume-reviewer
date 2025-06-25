@@ -14,7 +14,7 @@
     "result": {
       "title": "Analysis Results",
       "jobTechs": "Technologies in Job",
-      "resumeTechs": "Technologies in Resume",
+      "resumeTechs": "Compatible Technologies",
       "missingTechs": "Missing Technologies",
       "noneTechs": "None",
       "compatibility": "Compatibility"
