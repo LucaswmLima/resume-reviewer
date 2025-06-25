@@ -13,7 +13,6 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: function(origin, callback){
-    // permitir requisições sem origin (como Postman)
     if(!origin) return callback(null, true);
     if(allowedOrigins.indexOf(origin) === -1){
       const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
@@ -21,7 +20,7 @@ app.use(cors({
     }
     return callback(null, true);
   },
-  credentials: true // se usar cookies ou autenticação
+  credentials: true
 }));
 
 app.use(express.json());
