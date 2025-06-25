@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { TextArea } from "../components/TextArea";
-import { FileUploader } from "../components/FileUploader";
 import { ResultDisplay } from "../components/ResultDisplay";
 import { analyzeResumeTexts } from "../api/resumeAnalysisApi";
 import type { ResumeAnalysisResult } from '../types/resumeAnalysisTypes';
@@ -32,34 +31,46 @@ export const Home: React.FC = () => {
   };
 
   return (
-    <main style={{ maxWidth: 800, margin: "40px auto", padding: 20 }}>
-      <TextArea
-        label={t("home.jobTextTitle")}
-        value={vagaText}
-        onChange={setJobText}
-        placeholder={t("home.jobTextPlaceholder")}
-      />
+    <main className="container mx-auto my-10 p-4">
+      {/* Container com flex para os textareas lado a lado */}
+      <div className="flex gap-6 mb-6">
+        <div className="flex-1">
+          <TextArea
+            label={t("home.jobTextTitle")}
+            value={vagaText}
+            onChange={setJobText}
+            placeholder={t("home.jobTextPlaceholder")}
+          />
+        </div>
+        <div className="flex-1">
+          <TextArea
+            label={t("home.resumeTextTitle")}
+            value={cvText}
+            onChange={setCvText}
+            placeholder={t("home.resumeTextPlaceholder")}
+          />
+        </div>
+      </div>
 
-      <TextArea
-        label={t("home.resumeTextTitle")}
-        value={cvText}
-        onChange={setCvText}
-        placeholder={t("home.resumeTextPlaceholder")}
-      />
+      {/* Botão centralizado */}
+      <div className="flex justify-center mb-6">
+        <Button
+          variant="outline"
+          onClick={handleSubmit}
+          disabled={loading || !vagaText || !cvText}
+        >
+          {loading ? t("home.analysingButton") : t("home.analyseButton")}
+        </Button>
+      </div>
 
-      <FileUploader onFileTextRead={setCvText} />
+      {/* Resultados centralizados */}
+      {error && (
+        <p className="text-red-600 text-center mb-4">{error}</p>
+      )}
 
-      <Button
-        variant="outline"
-        onClick={handleSubmit}
-        disabled={loading || !vagaText || !cvText}
-      >
-        {loading ? t("home.analysingButton") : t("home.analyseButton")}
-      </Button>
-
-      {error && <p style={{ color: "red", marginTop: 12 }}>{error}</p>}
-
-      <ResultDisplay result={result} />
+      <div className="flex justify-center">
+        <ResultDisplay result={result} />
+      </div>
     </main>
   );
 };
