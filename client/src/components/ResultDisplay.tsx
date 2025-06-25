@@ -12,7 +12,6 @@ interface ResultDisplayProps {
   result: ResumeAnalysisResult | null;
 }
 
-// Mapeia cor do texto para fundo correspondente (modo claro / escuro)
 const bgColorMap: Record<string, string> = {
   "text-red-600": "bg-red-100",
   "text-yellow-600": "bg-yellow-100",
@@ -21,11 +20,8 @@ const bgColorMap: Record<string, string> = {
   "text-gray-200": "bg-gray-700 dark:bg-gray-200",
 };
 
-// Função auxiliar para escolher fundo conforme textColor, trata casos com 'dark:' dentro da string
 function getBgColor(textColor: string) {
-  // Se tem 'dark:' na string, extrai só a classe de texto light mode para buscar o bg correto
   if (textColor.includes("dark:")) {
-    // Exemplo: 'text-gray-800 dark:text-gray-200' -> pega 'text-gray-800'
     const lightColor = textColor.split(" ")[0];
     return bgColorMap[lightColor] ?? "bg-gray-100";
   }
