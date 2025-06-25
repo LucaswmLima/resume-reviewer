@@ -1,15 +1,23 @@
 {
   "navbar": {
-    "title": "Réviseur de CV",
+    "title": "Analyseur de CV",
     "modeToggle": { "light": "Clair", "dark": "Sombre", "system": "Système" }
   },
   "home": {
-    "description": "Analysez votre CV en fonction de l'offre d'emploi souhaitée. Collez ou importez votre CV et la description du poste pour savoir si vous utilisez les mots-clés les plus pertinents. Le système identifie les termes présents, signale ceux qui manquent et calcule un score de compatibilité.",
+    "description": "Analysez votre CV en fonction du poste souhaité. Collez ou téléchargez votre CV et la description du poste pour découvrir si vous utilisez les mots-clés les plus pertinents. Le système identifie les termes trouvés, met en évidence ceux manquants et calcule un score de compatibilité.",
     "jobTextTitle": "Description du poste",
     "jobTextPlaceholder": "Collez ici la description du poste...",
     "resumeTextTitle": "CV",
     "resumeTextPlaceholder": "Collez ici le texte de votre CV...",
     "analyseButton": "Analyser",
-    "analysingButton": "Analyse en cours..."
+    "analysingButton": "Analyse en cours...",
+    "result": {
+      "title": "Résultats de l'analyse",
+      "jobTechs": "Technologies dans le poste",
+      "resumeTechs": "Technologies dans le CV",
+      "missingTechs": "Technologies manquantes",
+      "noneTechs": "Aucune",
+      "compatibility": "Compatibilité"
+    }
   }
 }

@@ -1,15 +1,23 @@
 {
   "navbar": {
-    "title": "简历分析器",
-    "modeToggle": { "light": "浅色", "dark": "深色", "system": "系统" }
+    "title": "简历审核器",
+    "modeToggle": { "light": "明亮", "dark": "黑暗", "system": "系统" }
   },
   "home": {
-    "description": "根据目标职位分析您的简历。粘贴或上传您的简历和职位描述，了解您是否使用了最相关的关键词。系统会识别匹配的词汇，标出缺失的内容，并计算匹配评分。",
+    "description": "根据目标职位分析您的简历。粘贴或上传您的简历和职位描述，查看您是否使用了最相关的关键词。系统会识别找到的术语，突出显示缺失的，并计算匹配度评分。",
     "jobTextTitle": "职位描述",
-    "jobTextPlaceholder": "请在此粘贴职位描述...",
+    "jobTextPlaceholder": "在此粘贴职位描述...",
     "resumeTextTitle": "简历",
-    "resumeTextPlaceholder": "请在此粘贴您的简历内容...",
+    "resumeTextPlaceholder": "在此粘贴您的简历文本...",
     "analyseButton": "分析",
-    "analysingButton": "分析中..."
+    "analysingButton": "分析中...",
+    "result": {
+      "title": "分析结果",
+      "jobTechs": "职位中的技术",
+      "resumeTechs": "简历中的技术",
+      "missingTechs": "缺少的技术",
+      "noneTechs": "无",
+      "compatibility": "匹配度"
+    }
   }
 }

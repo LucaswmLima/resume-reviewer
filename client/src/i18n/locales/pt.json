@@ -10,6 +10,14 @@
     "resumeTextTitle": "Curriculo",
     "resumeTextPlaceholder": "Cole aqui o texto de seu curriculo...",
     "analyseButton": "Analisar",
-    "analysingButton": "Analisando..."
+    "analysingButton": "Analisando...",
+    "result": {
+      "title:": "Resultados da Análise",
+      "jobTechs": "Tecnologias na vaga",
+      "resumeTechs": "Tecnologias no curriculo",
+      "missingTechs": "Tecnologias faltando",
+      "noneTechs": "Nenhuma",
+      "compatibility": "Compatibilidade"
+    }
   }
 }
