@@ -1,4 +1,3 @@
-//jobValidation.ts
 export const validateJobRequest = (data: any) => {
   const errors: string[] = [];
 

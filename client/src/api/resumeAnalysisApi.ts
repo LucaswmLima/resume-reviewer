@@ -13,7 +13,6 @@ export const analyzeResumeTexts = async (
     },
     body: JSON.stringify({ jobText, cvText }),
   });
-  console.log(response.body);
   
   if (!response.ok) {
     throw new Error("Erro ao analisar textos");

@@ -1,77 +1,170 @@
 {
-  "python": ["python"],
-  "javascript": ["javascript", "js"],
-  "typescript": ["typescript", "ts"],
-  "java": ["java"],
-  "csharp": ["c#", "csharp", "c sharp"],
-  "go": ["go", "golang"],
-  "ruby": ["ruby"],
-  "php": ["php"],
-  "cplus": ["c++", "cpp"],
-  "c++": ["c++"],
-  "swift": ["swift"],
-  "kotlin": ["kotlin"],
-  "scala": ["scala"],
-  "r": ["r language", "r programming"],
-  "react": ["react", "reactjs", "react.js"],
-  "angular": ["angular"],
-  "vue": ["vue", "vuejs", "vue.js"],
-  "svelte": ["svelte"],
-  "nextjs": ["nextjs", "next.js"],
-  "nuxtjs": ["nuxtjs", "nuxt.js"],
-  "ember": ["ember"],
-  "jquery": ["jquery"],
-  "bootstrap": ["bootstrap"],
-  "nodejs": ["nodejs", "node.js", "node"],
-  "express": ["express", "expressjs", "express.js"],
-  "django": ["django"],
-  "flask": ["flask"],
-  "spring": ["spring", "spring boot"],
-  "laravel": ["laravel"],
-  "rails": ["rails", "ruby on rails"],
-  "fastapi": ["fastapi"],
-  "aspnet": ["asp.net", "aspnet", "asp.net core", "aspnet core"],
-  "mysql": ["mysql"],
-  "postgresql": ["postgresql", "postgres"],
-  "mongodb": ["mongodb", "mongo"],
-  "redis": ["redis"],
-  "oracle": ["oracle"],
-  "sqlserver": ["sql server", "sqlserver", "mssql"],
-  "sqlite": ["sqlite"],
-  "docker": ["docker"],
-  "kubernetes": ["kubernetes", "k8s"],
-  "terraform": ["terraform"],
-  "jenkins": ["jenkins"],
-  "gitlabci": ["gitlab ci", "gitlabci", "gitlab-ci"],
-  "githubactions": ["github actions", "githubactions"],
-  "circleci": ["circleci"],
-  "aws": ["aws", "amazon web services"],
-  "azure": ["azure", "microsoft azure"],
-  "gcp": ["gcp", "google cloud", "google cloud platform"],
-  "ansible": ["ansible"],
-  "prometheus": ["prometheus"],
-  "grafana": ["grafana"],
-  "git": ["git"],
-  "jest": ["jest"],
-  "mocha": ["mocha"],
-  "selenium": ["selenium"],
-  "cypress": ["cypress"],
-  "pytest": ["pytest"],
-  "ci/cd": [
-    "ci/cd",
-    "cicd",
-    "continuous integration",
-    "continuous delivery",
-    "continuous deployment"
-  ],
-  "restapi": ["rest api", "restapi", "rest"],
-  "graphql": ["graphql"],
-  "webpack": ["webpack"],
-  "babel": ["babel"],
-  "eslint": ["eslint"],
-  "prettier": ["prettier"],
-  "npm": ["npm"],
-  "yarn": ["yarn"],
-  "gradle": ["gradle"],
-  "maven": ["maven"]
+  "Linguagens": {
+    "python": ["python"],
+    "javascript": ["javascript", "js"],
+    "typescript": ["typescript", "ts"],
+    "java": ["java"],
+    "csharp": ["c#", "csharp", "c sharp"],
+    "c": ["c++", "cplus", "cpp"],
+    "go": ["go", "golang"],
+    "ruby": ["ruby"],
+    "php": ["php"],
+    "swift": ["swift"],
+    "kotlin": ["kotlin"],
+    "scala": ["scala"],
+    "r": ["r language", "r programming"]
+  },
+  "Frameworks Frontend": {
+    "react": ["react", "reactjs", "react.js"],
+    "angular": ["angular"],
+    "vue": ["vue", "vuejs", "vue.js"],
+    "svelte": ["svelte"],
+    "nextjs": ["nextjs", "next.js"],
+    "nuxtjs": ["nuxtjs", "nuxt.js"],
+    "ember": ["ember"],
+    "jquery": ["jquery"],
+    "bootstrap": ["bootstrap"]
+  },
+  "Frameworks Backend": {
+    "nodejs": ["nodejs", "node.js", "node"],
+    "express": ["express", "expressjs", "express.js"],
+    "django": ["django"],
+    "flask": ["flask"],
+    "spring": ["spring", "spring boot"],
+    "laravel": ["laravel"],
+    "rails": ["rails", "ruby on rails"],
+    "fastapi": ["fastapi"],
+    "aspnet": ["asp.net", "aspnet", "asp.net core", "aspnet core"]
+  },
+  "Bancos de Dados": {
+    "mysql": ["mysql"],
+    "postgresql": ["postgresql", "postgres"],
+    "mongodb": ["mongodb", "mongo"],
+    "redis": ["redis"],
+    "oracle": ["oracle"],
+    "sqlserver": ["sql server", "sqlserver", "mssql"],
+    "sqlite": ["sqlite"]
+  },
+  "DevOps e Cloud": {
+    "docker": ["docker"],
+    "kubernetes": ["kubernetes", "k8s"],
+    "terraform": ["terraform"],
+    "jenkins": ["jenkins"],
+    "gitlabci": ["gitlab ci", "gitlabci", "gitlab-ci"],
+    "githubactions": ["github actions", "githubactions"],
+    "circleci": ["circleci"],
+    "aws": ["aws", "amazon web services"],
+    "azure": ["azure", "microsoft azure"],
+    "gcp": ["gcp", "google cloud", "google cloud platform"],
+    "ansible": ["ansible"],
+    "prometheus": ["prometheus"],
+    "grafana": ["grafana"]
+  },
+  "Controle de Versão": {
+    "git": ["git"]
+  },
+  "Testes": {
+    "jest": ["jest"],
+    "mocha": ["mocha"],
+    "selenium": ["selenium"],
+    "cypress": ["cypress"],
+    "pytest": ["pytest"]
+  },
+  "Integração Contínua": {
+    "ci/cd": [
+      "ci/cd",
+      "cicd",
+      "continuous integration",
+      "continuous delivery",
+      "continuous deployment"
+    ]
+  },
+  "APIs e Comunicação": {
+    "restapi": ["rest api", "restapi", "rest"],
+    "graphql": ["graphql"]
+  },
+  "Ferramentas de Build e Lint": {
+    "webpack": ["webpack"],
+    "babel": ["babel"],
+    "eslint": ["eslint"],
+    "prettier": ["prettier"]
+  },
+  "Gerenciadores de Pacotes": {
+    "npm": ["npm"],
+    "yarn": ["yarn"]
+  },
+  "Build": {
+    "gradle": ["gradle"],
+    "maven": ["maven"]
+  },
+  "Metodologias e Gestão": {
+    "agile": ["agile", "scrum", "kanban", "metodologias ágeis"],
+    "jira": ["jira"]
+  },
+  "Implantação": {
+    "vercel": ["vercel"],
+    "render": ["render"]
+  },
+  "Idiomas": {
+    "english": [
+      "english",
+      "inglês",
+      "advanced inglês",
+      "intermediate english",
+      "inglês avançado"
+    ],
+    "spanish": ["spanish", "espanhol"]
+  },
+  "Ferramentas de Desenvolvimento": {
+    "figma": ["figma"],
+    "postman": ["postman"],
+    "insomnia": ["insomnia"],
+    "notion": ["notion"],
+    "slack": ["slack"],
+    "trello": ["trello"]
+  },
+  "Arquitetura e Boas Práticas": {
+    "microservices": ["microservices", "microservice", "microsserviços"],
+    "monolith": ["monolith", "monolithic"],
+    "cleanarchitecture": ["clean architecture", "cleanarchitecture"],
+    "ddd": ["domain driven design", "ddd"],
+    "tdd": ["test driven development", "tdd"],
+    "solid": ["solid"]
+  },
+  "Sistemas Operacionais e CLI": {
+    "linux": ["linux"],
+    "bash": ["bash"],
+    "shellscript": ["shell script", "shellscript"]
+  },
+  "Deploy e Monitoramento": {
+    "netlify": ["netlify"],
+    "firebase": ["firebase"],
+    "newrelic": ["new relic", "newrelic"],
+    "datadog": ["datadog"]
+  },
+  "CMS e E-commerce": {
+    "wordpress": ["wordpress"],
+    "shopify": ["shopify"],
+    "magento": ["magento"]
+  },
+  "Mobile": {
+    "reactnative": ["react native", "reactnative"],
+    "flutter": ["flutter"],
+    "xamarin": ["xamarin"]
+  },
+  "APIs Externas": {
+    "stripe": ["stripe"],
+    "twilio": ["twilio"],
+    "auth0": ["auth0"]
+  },
+  "Design e Acessibilidade": {
+    "uxui": ["ux", "ui", "ux/ui", "user experience", "user interface"],
+    "responsive": ["responsive", "responsivo", "mobile first"]
+  },
+  "Inteligência Artificial": {
+    "openai": ["openai", "chatgpt"],
+    "llm": ["llm", "large language model", "modelo de linguagem"],
+    "tensorflow": ["tensorflow"],
+    "pytorch": ["pytorch"]
+  }
 }
