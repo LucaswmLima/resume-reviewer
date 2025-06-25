@@ -13,7 +13,7 @@ export const defaultNS = "translation";
 i18next.use(initReactI18next).init({
   lng: "pt",
   fallbackLng: "en",
-  debug: true,
+  debug: false,
   resources: {
     pt: { translation: ptTranslation },
     en: { translation: enTranslation },
