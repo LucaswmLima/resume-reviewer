@@ -15,10 +15,8 @@ Aplicação web que analisa currículos com base na descrição de uma vaga, des
 
 ## 🚀 Funcionalidades
 
-- Upload de currículos nos formatos `.pdf` ou `.docx`
-- Campo para colar a descrição da vaga desejada
-- Extração e leitura automática dos textos
-- Processamento com modelo de linguagem (LLM)
+- Campo para colar a descrição da vaga desejada e o texto do CV
+- Processamento e extração para leitura automática dos textos
 - Retorno com análise de compatibilidade, palavras-chave faltantes e sugestões
 - Interface clara e responsiva
 
@@ -36,26 +34,18 @@ Aplicação web que analisa currículos com base na descrição de uma vaga, des
 ### Back-end
 - **Node.js**
 - **Express**
-- **OpenAI API** (ou compatível)
-- **Multer** (upload de arquivos)
-- **pdf-parse**, **docx** (para leitura dos currículos)
 
 ---
 
 ## 🌐 Link do Projeto
 
-👉 [Acesse a demonstração](https://meter-read-managment-tool-client.onrender.com) *(ajuste esse link se houver um domínio exclusivo para o revisor)*
+👉 [Acesse a demonstração](https://meter-read-managment-tool-client.onrender.com)
 
 ---
 
 ## 📸 Capturas de Tela
 
-*(adicione as imagens no repositório e atualize os caminhos)*
 
-📁 /demo
-├── homepage.png  
-├── upload.png  
-└── result.png  
 
 ```md
 ![Tela inicial](./demo/homepage.png)
