@@ -18,6 +18,7 @@
       "missingTechs": "缺少的技术",
       "noneTechs": "无",
       "compatibility": "匹配度"
-    }
+    },
+    "rememberResume": "记住简历" 
   }
 }

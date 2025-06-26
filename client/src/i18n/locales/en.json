@@ -5,19 +5,20 @@
   },
   "home": {
     "description": "Analyze your resume based on the desired job. Paste or upload your CV and job description to discover if you are using the most relevant keywords. The system identifies found terms, highlights missing ones, and calculates a compatibility score.",
-    "jobTextTitle": "Job Description",
+    "jobTextTitle": "Job description",
     "jobTextPlaceholder": "Paste the job description here...",
     "resumeTextTitle": "Resume",
     "resumeTextPlaceholder": "Paste your resume text here...",
     "analyseButton": "Analyze",
     "analysingButton": "Analyzing...",
     "result": {
-      "title": "Analysis Results",
+      "title": "Analysis results",
       "jobTechs": "Technologies in Job",
-      "resumeTechs": "Compatible Technologies",
-      "missingTechs": "Missing Technologies",
+      "resumeTechs": "Compatible technologies",
+      "missingTechs": "Missing technologies",
       "noneTechs": "None",
       "compatibility": "Compatibility"
-    }
+    },
+    "rememberResume": "Remember resume"
   }
 }

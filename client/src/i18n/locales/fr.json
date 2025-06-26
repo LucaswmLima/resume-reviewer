@@ -18,6 +18,7 @@
       "missingTechs": "Technologies manquantes",
       "noneTechs": "Aucune",
       "compatibility": "Compatibilité"
-    }
+    },
+    "rememberResume": "Se souvenir du CV" 
   }
 }
