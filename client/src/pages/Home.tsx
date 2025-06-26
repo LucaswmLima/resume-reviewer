@@ -76,7 +76,7 @@ export const Home: React.FC = () => {
               checked={remember}
               onCheckedChange={(checked) => setRemember(checked === true)}
             />
-            <label>Lembrar currículo</label>
+            <label>{t("home.rememberResume")}</label>
           </div>
         </div>
       </div>
